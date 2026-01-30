@@ -1,0 +1,12 @@
+imc = input("coloque o seu indice de peso: ")
+
+if  float (imc) < 18.5:
+    print("você esta abaixo do peso")
+elif float (imc) < 24.9:
+    print("seu peso é normal")
+elif float (imc) < 29.9:
+    print("você esta com sobre peso")
+elif float (imc) < 39.9:
+    print("você esta com obesidade")
+else:
+    print("você esta com obesidade grave")
